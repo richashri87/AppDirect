@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="validEmail" value="richashri1@gmail.com"/>
+  <test name="Test(failed)">
+    <parameter name="validEmail" value="richashri1@gmail.com"/>
+    <classes>
+      <class name="testcases.VerifySignUpPageTest">
+        <methods>
+          <include name="signUpwithValidEmail" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.VerifySignUpPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Driver session started]]>
+    </line>
+    <line>
+      <![CDATA[application staerted]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="133966" started-at="2016-10-05T13:42:47Z" finished-at="2016-10-05T13:45:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="133966" started-at="2016-10-05T13:42:47Z" finished-at="2016-10-05T13:45:01Z">
+      <class name="testcases.VerifySignUpPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.VerifySignUpPageTest@3ffc5af1]" name="setup" is-config="true" duration-ms="43482" started-at="2016-10-05T19:12:47Z" finished-at="2016-10-05T19:13:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver session started]]>
+            </line>
+            <line>
+              <![CDATA[application staerted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signUpwithValidEmail(java.lang.String)[pri:0, instance:testcases.VerifySignUpPageTest@3ffc5af1]" name="signUpwithValidEmail" duration-ms="88026" started-at="2016-10-05T19:13:31Z" finished-at="2016-10-05T19:14:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[richashri1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpwithValidEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.VerifySignUpPageTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="2416" started-at="2016-10-05T19:14:59Z" finished-at="2016-10-05T19:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.VerifySignUpPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
